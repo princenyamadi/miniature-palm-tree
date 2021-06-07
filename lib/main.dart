@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:miniature_palm_tree/google-maps-v2/goomap.dart';
-import 'package:miniature_palm_tree/google-maps/google_maps_screen.dart';
+import 'package:miniature_palm_tree/permissions_box/permission_box.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: GooMap(),
+      home: PermissionBox(),
     );
   }
 }
